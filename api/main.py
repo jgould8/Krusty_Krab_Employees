@@ -20,7 +20,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-model_loader.index()
 indexRoute.load_routes(app)
 
 

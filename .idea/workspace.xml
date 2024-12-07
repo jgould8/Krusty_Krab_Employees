@@ -5,28 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="983840ab-4440-46bd-90da-ab5b97eb98c3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/controllers/order_details.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/order_details.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/dependencies/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/dependencies/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/models/customers.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/models/customers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/models/menu_items.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/models/menu_items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/models/model_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/models/model_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/models/orders.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/models/orders.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/models/payment.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/models/payment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/models/promotions.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/models/promotions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/models/ratings.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/models/ratings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/models/resources.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/models/resources.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/schemas/customers.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/schemas/customers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/schemas/menu_items.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/schemas/menu_items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/schemas/orders.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/schemas/orders.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/schemas/payment.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/schemas/payment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/schemas/promotions.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/schemas/promotions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/schemas/ratings.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/schemas/ratings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/schemas/resources.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/schemas/resources.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/tests/test_orders.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/tests/test_orders.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +76,8 @@
       <workItem from="1732196827813" duration="780000" />
       <workItem from="1732197842041" duration="9469000" />
       <workItem from="1732304805095" duration="7710000" />
-      <workItem from="1733536049084" duration="1371000" />
+      <workItem from="1733536049084" duration="5062000" />
+      <workItem from="1733541922569" duration="1358000" />
     </task>
     <servers />
   </component>
@@ -114,5 +94,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/api/models/orders.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
