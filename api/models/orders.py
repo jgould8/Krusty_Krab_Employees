@@ -14,4 +14,3 @@ class Order(Base):
     total_price = Column(DECIMAL(10, 2), nullable=False)
 
     customer = relationship("Customer", back_populates="orders")
-    order_details = relationship("OrderDetail", back_populates="order")

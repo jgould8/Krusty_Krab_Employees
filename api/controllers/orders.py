@@ -6,8 +6,11 @@ from sqlalchemy.exc import SQLAlchemyError
 
 def create(db: Session, request):
     new_item = model.Order(
-        customer_name=request.customer_name,
-        description=request.description
+        customer_id=request.customer_id,
+        order_date=request.order_date,
+        tracking_number=request.tracking_number,
+        order_status=request.order_status,
+        total_price=request.total_price
     )
 
     try:

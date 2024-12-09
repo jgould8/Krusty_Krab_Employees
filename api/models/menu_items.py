@@ -12,4 +12,3 @@ class MenuItem(Base):
     food_category = Column(String(50), nullable=True)
 
     reviews = relationship("Rating", back_populates="menu_item")
-    order_details = relationship("OrderDetail", back_populates="menu_item")
